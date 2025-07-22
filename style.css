@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* shared style */
+
+.orange_clr{
+  color: #FF0000;
+}
+.title{
+  font-size: 48px;
+}
+.sub_title{
+  font-size: 24px;
+}
+.pera{
+  font-size: 20px;
+}
+.center{
+  text-align: center;
+}
