@@ -18,6 +18,10 @@
 .pera {
   font-size: 20px;
 }
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
 .center {
   text-align: center;
 }
@@ -27,10 +31,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 1320px;
   height: 600px;
-  margin: 50px auto;
   border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 120px;
 }
 .banner_content {
   padding: 177px 0;
@@ -45,9 +49,7 @@
   font-size: 72px;
 }
 /* offer_section */
-.offer_section {
-  text-align: center;
-}
+
 .offer_section h1 {
   font-size: 88px;
 }
@@ -63,9 +65,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 1320px;
   height: 600px;
-  margin: 50px auto;
   border-radius: 10px;
   color: white;
 }
@@ -81,8 +81,33 @@
   padding: 24px 0 48px;
   line-height: 25px;
 }
+.join_text,
 .join_btn {
   text-decoration: none;
   color: white;
   font-weight: bold;
+}
+/* join_sec */
+
+.join_sec {
+  background: linear-gradient(to top, rgba(246, 246, 246, 0.052), #ff959544);
+  height: 500px;
+  line-height: 60px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.join_sec button {
+  color: white;
+  background-color: #ff0000;
+  padding: 16px 32px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  margin-top: 64px;
 }
