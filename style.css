@@ -55,5 +55,34 @@
   margin: 50px 0 16px 0;
 }
 .offer_section img {
-  margin-top: 50px;
+  margin: 50px 0 120px 0;
+}
+.wlc_sec {
+  background-image: linear-gradient(to left, rgba(1, 4, 22, 0.052), #000),
+    url("./images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 1320px;
+  height: 600px;
+  margin: 50px auto;
+  border-radius: 10px;
+  color: white;
+}
+.wlc_desc {
+  padding: 120px;
+}
+.wlc_desc h1 {
+  font-size: 64px;
+}
+.wlc_desc p {
+  font-size: 18px;
+  font-weight: normal;
+  padding: 24px 0 48px;
+  line-height: 25px;
+}
+.join_btn {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
