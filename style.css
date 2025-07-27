@@ -11,12 +11,15 @@
 .title {
   font-size: 48px;
   font-weight: bold;
+  margin: 16px 0px 22px;
 }
 .sub_title {
   font-size: 24px;
 }
 .pera {
   font-size: 20px;
+  color: #6a6770;
+  line-height: 30px;
 }
 .container {
   width: 1320px;
@@ -118,11 +121,6 @@
   margin-bottom: 120px;
   gap: 50px;
 }
-.coming_one h1,
-.coming_three .pera,
-.holiday_sec h1 {
-  margin: 16px 0px 22px;
-}
 
 .coming_one .pera,
 .coming_three .pera {
@@ -140,7 +138,7 @@
   padding: 48px;
 }
 .holiday_sec {
-  margin-bottom: 50px;
+  margin-bottom: 120px;
 }
 .holiday_desc {
   margin-bottom: 500px;
@@ -166,4 +164,10 @@
   position: absolute;
   right: 0;
   bottom: 100px;
+}
+.portfolio_pic {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
 }
