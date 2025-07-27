@@ -42,7 +42,8 @@
   color: white;
 }
 
-.banner_content h2 {
+.banner_content h2,
+.holiday_sec h1 {
   font-size: 72px;
   margin-top: 20px;
 }
@@ -118,7 +119,8 @@
   gap: 50px;
 }
 .coming_one h1,
-.coming_three .pera {
+.coming_three .pera,
+.holiday_sec h1 {
   margin: 16px 0px 22px;
 }
 
@@ -136,4 +138,32 @@
   width: 364px;
   height: 364px;
   padding: 48px;
+}
+.holiday_sec {
+  margin-bottom: 50px;
+}
+.holiday_desc {
+  margin-bottom: 500px;
+}
+.holiday_pic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.holiday_bottom {
+  width: 100%;
+  height: 250px;
+  background-color: #ff0000;
+  border-radius: 5px;
+}
+.h_img {
+  position: absolute;
+  left: 0;
+  bottom: -150px;
+}
+.h_img_2 {
+  position: absolute;
+  right: 0;
+  bottom: 100px;
 }
